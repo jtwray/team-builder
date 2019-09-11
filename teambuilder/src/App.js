@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Form } from "./components/Form"
 import { TeamMate } from "./components/TeamMate"
@@ -13,9 +14,12 @@ function App() {
       <header className="App-header" >
         <Form teammates={teammates} setTeamMates={setTeamMates} />
         <TeamMate teammates={teammates} />
+
       </header>
     </div>
   );
 }
 
+
 export default App;
+
